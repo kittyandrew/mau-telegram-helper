@@ -1,0 +1,17 @@
+api-key.json
+__pycache__/
+.idea/
+*.iml
+*.pyc
+venv/
+testing/
+*.mp3
+*.mp4
+*.session
+*.session-journal
+.dockerignore
+docker-compose.yml
+Dockerfile
+config.py
+test-development/
+archived/
