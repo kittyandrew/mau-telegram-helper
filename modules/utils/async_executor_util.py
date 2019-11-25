@@ -45,7 +45,7 @@ def wrap_code(code: str, indent_amount=4) -> str:
     """Wrap code inside a function"""
     wrapper = f"async def __ex(c, e):"  # Coroutine definition
     indented_code = "\n".join(["    "+line for line in code.split("\n")])  # Indent each line of code
-    return f"{wrapper}\n{indented_code}"  # Concatenate the wrapper and the indented code
+    return f"{wrapper}\n{indented_code}\n    pass"  # Concatenate the wrapper and the indented code
 
 
 def output_log(code: str, output: str, result: str, exception_info: tuple):
