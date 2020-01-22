@@ -38,6 +38,7 @@ async def init(bot):
 
             # Boolean to decide is this video or audio
             is_audio = "-audio" in commands or "-mp3" in commands
+            is_document = "-f" in commands or "-d" in commands
 
             # TODO: Implement callback in chat
             # Async wrapper for smooth download-converting change
@@ -126,13 +127,15 @@ async def init(bot):
                                             event.chat_id,
                                             file,
                                             attributes=attributes[0],
-                                            reply_to=event
+                                            reply_to=event,
+                                            force_document=is_document
                                         )
                         except:
                             await client.send_file(
                                             event.chat_id,
                                             file,
-                                            attributes=attributes[0]
+                                            attributes=attributes[0],
+                                            force_document=is_document
                                         )
 
                     finally:
