@@ -16,7 +16,6 @@ Pillow==7.0.0
 protobuf==3.11.2
 PyBinglate==0.2.61
 pyenchant==2.0.0
-pyOpenSSL==19.1.0
 secrets==1.0.2
 toml==0.10.0
 usercustomize==1.0.0
