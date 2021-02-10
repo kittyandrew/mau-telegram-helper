@@ -1,5 +1,5 @@
 keyring==18.0.1
-cryptography==3.2
+cryptography==3.3.2
 Telethon==1.10.10
 aiohttp==3.6.2
 brotli==1.0.7
