@@ -1,7 +1,7 @@
 keyring==18.0.1
 cryptography==3.3.2
 Telethon==1.10.10
-aiohttp==3.6.2
+aiohttp==3.7.4
 brotli==1.0.7
 Cython==0.29.14
 google_api_python_client==1.7.11
