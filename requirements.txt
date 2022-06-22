@@ -10,7 +10,7 @@ ipaddr==2.2.0
 lockfile==0.12.2
 lxml==4.6.5
 mypy_extensions==0.4.3
-numpy==1.18.1
+numpy==1.22.0
 ordereddict==1.1
 Pillow>=7.1.0
 protobuf==3.11.2
