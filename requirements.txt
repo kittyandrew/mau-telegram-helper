@@ -13,7 +13,7 @@ mypy_extensions==0.4.3
 numpy==1.18.1
 ordereddict==1.1
 Pillow>=7.1.0
-protobuf==3.11.2
+protobuf==3.18.3
 PyBinglate==0.2.61
 pyenchant==2.0.0
 wikipedia==1.4.0
